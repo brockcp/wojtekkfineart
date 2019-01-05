@@ -1,0 +1,39 @@
+.header {
+ width:100%;
+ padding:1.5%;
+}
+.logo {
+ font-size:1.5em;
+}
+.sublogo {
+font-size:1.6em;
+}
+.mainwrap {
+ width:85%;
+ margin:0 auto;
+ overflow: hidden;
+}
+.thumbwrap {
+ width:35%;
+/*display: inline;*/
+ padding:1%;
+ *zoom:1;
+}
+.thumbs img {
+ width: 30%;
+}
+.showcase{
+ width:61%;
+ *zoom:1;
+}
+.showcase p {
+ margin:5px 0 0 0;
+}
+#largeImg {
+ width: 100%;
+ height: auto;	
+}
+.button {
+  margin: 0 0 14px;
+  padding: 5px 15px 5px 15px;
+}
