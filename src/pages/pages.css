@@ -1,26 +1,41 @@
 .showcase img{
   margin: 5px 5% 0 5%;
   width: 90%;
-  height:auto
+  height:auto;
+  border:6px solid #cccccc;
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 768px){
+  .showcase img{
+    max-width: 500px;
+  }
+}
+@media only screen and (min-width: 992px){
   .showcase img{
     max-width: 700px;
   }
 }
 .showcase h3{
-  margin:0 auto 15px 0;
+  color:#994433;
+  margin:0 auto 15px auto;
 }
 .images img{
-  width:20%;
+  width:21%;
   padding:0 1%;
-  /* border:1px solid orange; */
+}
+@media only screen and (min-width:768px){
+  .images img{
+    max-width:15%;
+  }
+}
+@media only screen and (min-width:992px){
+  .images img{
+    max-width:10%;
+  }
 }
 .images img:hover{
   opacity: 0.8;
   cursor: pointer;
 }
-
 .aboutbody, .contactbody{
   width:80%;
   margin: 0 10%;
@@ -32,7 +47,6 @@
 .left{
   text-align: left;
 }
-
 .contactbody{
   height:500px;
 }
