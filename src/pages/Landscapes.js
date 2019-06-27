@@ -10,7 +10,7 @@ class Landscapes extends Component {
   }
 
   componentDidMount(){
-    document.title = "Wojtek Kosmowski Fine Art | Animals"
+    document.title = "Wojtek Kosmowski Fine Art | Landscapes"
   }
 
   onClickHandler = (e) => {

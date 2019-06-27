@@ -13,8 +13,4 @@
 
 -NOTES-
  -STILL TO DO:
-  -index.css - set font size and styling in body
-  -new icon
-  -Complete about
-  -Complete contact
   -add analytics

@@ -3,7 +3,7 @@ import React, {Component} from 'react'
 class Contact extends Component{
 
   componentDidMount(){
-    document.title = "Wojtek Kosmowski Fine Art | Animals"
+    document.title = "Wojtek Kosmowski Fine Art | Contact"
   }
   render(){
     return (

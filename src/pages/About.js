@@ -3,7 +3,7 @@ import './pages.css'
 class About extends Component{
 
   componentDidMount(){
-    document.title = "Wojtek Kosmowski Fine Art | Animals"
+    document.title = "Wojtek Kosmowski Fine Art | About"
   }
   render(){
     return (
