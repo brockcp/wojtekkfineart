@@ -1,0 +1,10 @@
+header {
+  text-align: center;
+  padding: 2%;
+}
+.logo a {
+  font-size: 150%;
+  font-style: italic;
+  text-decoration: none;
+  color: #666666;
+}

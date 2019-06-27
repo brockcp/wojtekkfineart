@@ -1,0 +1,58 @@
+.showcase img{
+  margin: 5px 5% 0 5%;
+  width: 90%;
+  height:auto
+}
+@media only screen and (min-width: 992px) {
+  .showcase img{
+    max-width: 700px;
+  }
+}
+.showcase h3{
+  margin:0 auto 15px 0;
+}
+.images img{
+  width:20%;
+  padding:0 1%;
+  /* border:1px solid orange; */
+}
+.images img:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.aboutbody, .contactbody{
+  width:80%;
+  margin: 0 10%;
+  font-family:sans-serif;
+}
+.centered{
+  text-align: center;
+}
+.left{
+  text-align: left;
+}
+
+.contactbody{
+  height:500px;
+}
+.button {
+  cursor: pointer;
+  font-weight: normal;
+  line-height: normal;
+  margin: 0 0 1.25rem;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  padding: .2rem 3rem .2rem 3rem;
+  font-size: 1.3rem;
+  background-color: #994433;
+  border-radius: 2px;
+  color: white;
+  transition: background-color 300ms ease-out;
+  font-weight: normal !important;
+}
+.button:hover, .button:focus {
+  color: #FFFFFF;
+  background-color: #996633;
+}

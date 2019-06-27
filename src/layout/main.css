@@ -1,0 +1,7 @@
+.mainwrap{
+  padding: 0;
+  width: 100%;
+  border-top: 4px double #cccccc;
+  border-bottom: 4px double #cccccc;
+  text-align: center;
+}
