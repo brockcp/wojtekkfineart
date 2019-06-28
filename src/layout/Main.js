@@ -14,13 +14,13 @@ const Main = () => (
   <div className="mainwrap">
       <Switch>
         <Route exact path='/' component={Home}/>
-        <Route path='/Animals' component={Animals}/>
-        <Route path='/Landscapes' component={Landscapes}/>
-        <Route path='/People' component={People}/>
-        <Route path='/Sculptures' component={Sculptures}/>
-        <Route path='/Flowers' component={Flowers}/>
-        <Route path='/About' component={About}/>
-        <Route path='/Contact' component={Contact}/>
+        <Route path='/animals' component={Animals}/>
+        <Route path='/landscapes' component={Landscapes}/>
+        <Route path='/people' component={People}/>
+        <Route path='/sculptures' component={Sculptures}/>
+        <Route path='/flowers' component={Flowers}/>
+        <Route path='/about' component={About}/>
+        <Route path='/contact' component={Contact}/>
       </Switch>
   </div>
 )

@@ -7,13 +7,13 @@ const Nav = () => (
     <nav>
       <ul>
         <li><Link to='/'>Home</Link></li>
-        <li><Link to='/Animals'>Animals</Link></li>
-        <li><Link to='/Landscapes'>Landscapes</Link></li>
-        <li><Link to='/People'>People</Link></li>
-        <li><Link to='/Sculptures'>Sculptures</Link></li>
-        <li><Link to='/Flowers'>Flowers</Link></li>
-        <li><Link to='/About'>About</Link></li>
-        <li><Link to='/Contact'>Contact</Link></li>
+        <li><Link to='/animals'>Animals</Link></li>
+        <li><Link to='/landscapes'>Landscapes</Link></li>
+        <li><Link to='/people'>People</Link></li>
+        <li><Link to='/sculptures'>Sculptures</Link></li>
+        <li><Link to='/flowers'>Flowers</Link></li>
+        <li><Link to='/about'>About</Link></li>
+        <li><Link to='/contact'>Contact</Link></li>
       </ul>
     </nav>
   </footer>
