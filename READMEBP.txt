@@ -12,5 +12,4 @@
  -
 
 -NOTES-
- -STILL TO DO:
-  -add analytics
+ -requires .htaccess file to ensure correct root routing when live.
