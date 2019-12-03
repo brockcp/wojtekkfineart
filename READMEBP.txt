@@ -12,4 +12,5 @@
  -
 
 -NOTES-
+ -requires production build - $ yarn build
  -requires .htaccess file to ensure correct root routing when live.
