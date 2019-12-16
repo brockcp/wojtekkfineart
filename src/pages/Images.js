@@ -43,7 +43,8 @@ const data_landscapes = [
   {id:13, img: "../img/landscapes/tetonroyalfamily.jpg", title: "Teton Royal Family"},
   {id:14, img: "../img/landscapes/solitudeinyosemite.jpg", title: "Solitude In Yosemite"},
   {id:15, img: "../img/landscapes/californiasunset.jpg", title: "California Sunset"},
-  {id:16, img: "../img/landscapes/dohenybeach.jpg", title: "Doheny Beach"}
+  {id:16, img: "../img/landscapes/dohenybeach.jpg", title: "Doheny Beach"},
+  {id:17, img: "../img/landscapes/catalinasunset.jpg", title: "Catalina Sunset"}
 ];
 const data_people = [
   {id:1, img: "../img/people/ladyinred.jpg", title: "Lady In Red"},
