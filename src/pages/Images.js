@@ -25,7 +25,11 @@ const data_flowers = [
   {id:7, img: "../img/flowers/iristrio.jpg", title:"Iris Trio"},
   {id:8, img: "../img/flowers/dahlias.jpg", title:"Dahlias"},
   {id:9, img: "../img/flowers/waterlilies.jpg", title:"Water Lilies"},
-  {id:10, img: "../img/flowers/feedingfrenzy.jpg", title:"Feeding Frenzy"}
+  {id:10, img: "../img/flowers/feedingfrenzy.jpg", title:"Feeding Frenzy"},
+  {id:11, img: "../img/flowers/hummingbirdonkatleyas.jpg", title:"Hummingbird on Katleyas"},
+  {id:12, img: "../img/flowers/katleyas2.jpg", title:"Katleyas 2"},
+  {id:13, img: "../img/flowers/redorientalpoppies.jpg", title:"Red Oriental Poppies"},
+  {id:14, img: "../img/flowers/orangeorientalpoppies.jpg", title:"Orange Oriental Poppies"}
 ];
 const data_landscapes = [
   {id:1, img: "../img/landscapes/arabianstallionintetons.jpg", title: "Arabian Stallions In Tetons"},
@@ -44,7 +48,8 @@ const data_landscapes = [
   {id:14, img: "../img/landscapes/solitudeinyosemite.jpg", title: "Solitude In Yosemite"},
   {id:15, img: "../img/landscapes/californiasunset.jpg", title: "California Sunset"},
   {id:16, img: "../img/landscapes/dohenybeach.jpg", title: "Doheny Beach"},
-  {id:17, img: "../img/landscapes/catalinasunset.jpg", title: "Catalina Sunset"}
+  {id:17, img: "../img/landscapes/catalinasunset.jpg", title: "Catalina Sunset"},
+  {id:18, img: "../img/landscapes/majestyofsequoias.jpg", title: "Majesty of Sequoias"}
 ];
 const data_people = [
   {id:1, img: "../img/people/ladyinred.jpg", title: "Lady In Red"},

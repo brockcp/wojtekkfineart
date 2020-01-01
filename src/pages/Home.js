@@ -10,18 +10,22 @@ class Home extends Component {
 
   state = {
   		home_images: [
+        data_landscapes[14],
+        data_landscapes[17],
+        data_flowers[9],
+        data_flowers[10],
   			data_animals[0],
   			data_animals[1],
         data_landscapes[0],
-        data_landscapes[1],
+        data_landscapes[13],
         data_people[0],
-        data_landscapes[2],
+        data_landscapes[16],
         data_sculptures[0],
-        data_flowers[1],
+        data_flowers[12],
         data_landscapes[5],
-        data_flowers[4],
+        data_flowers[13],
         data_sculptures[7],
-        data_people[1]
+        data_flowers[8]
   		],
   		selectedImageIndex: 0
   };
