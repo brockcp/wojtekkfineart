@@ -10,7 +10,7 @@ import Flowers from '../pages/Flowers'
 import About from '../pages/About'
 import Contact from '../pages/Contact'
 
-const Main = () => (
+const Main=()=>(
   <div className="mainwrap">
       <Switch>
         <Route exact path='/' component={Home}/>

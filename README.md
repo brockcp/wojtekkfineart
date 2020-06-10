@@ -8,5 +8,5 @@
 
 ### Technologies used:
 
-- **React Library**
+- **React Javascript Library**
 - **React Router v4**

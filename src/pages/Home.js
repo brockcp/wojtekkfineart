@@ -7,8 +7,9 @@ import { data_animals,
          data_sculptures } from './Images'
 
 class Home extends Component {
-
-  state = {
+  constructor(props){
+    super(props);
+    this.state = {
   		home_images: [
         data_landscapes[14],
         data_landscapes[17],
@@ -25,21 +26,20 @@ class Home extends Component {
         data_landscapes[5],
         data_flowers[13],
         data_sculptures[7],
-        data_flowers[8]
+        data_flowers[8],
+        data_landscapes[18]
   		],
   		selectedImageIndex: 0
-  };
-
-  onClickHandler = (e) => {
+    }
+  }
+  onClickHandler=(e)=>{
   	this.setState({
   		selectedImageIndex:  e.target.dataset.index
   	})
   }
-
   componentDidMount(){
     document.title = "Wojtek Kosmowski Fine Art"
   }
-
   render() {
     const images = this.state.home_images.map((image,index) => (
       <img key={image.id} src={image.img} alt={image.title} data-index={index} />

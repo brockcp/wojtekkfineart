@@ -3,22 +3,21 @@ import './pages.css'
 import { data_landscapes } from './Images'
 
 class Landscapes extends Component {
-
-  state = {
-  	landscapes: data_landscapes,
-  	selectedImageIndex: 0
+  constructor(props){
+    super(props);
+    this.state = {
+  	  landscapes: data_landscapes,
+  	  landscape: 0
+    }
   }
-
   componentDidMount(){
     document.title = "Wojtek Kosmowski Fine Art | Landscapes"
   }
-
-  onClickHandler = (e) => {
+  onClick=(e)=>{
   	this.setState({
-  		selectedImageIndex: e.target.dataset.index
+  		landscape: e.target.dataset.index
   	})
   }
-
   render() {
     const images = this.state.landscapes.map((image,index) => (
       <img key={image.id} src={image.img} alt={image.title} data-index={index} />
@@ -26,11 +25,11 @@ class Landscapes extends Component {
   	return (
       <div>
        <div className="showcase">
-        <img src={this.state.landscapes[this.state.selectedImageIndex]["img"]} alt={this.state.landscapes[this.state.selectedImageIndex]["title"]} />
-        <h3>{this.state.landscapes[this.state.selectedImageIndex]["title"]}</h3>
+        <img src={this.state.landscapes[this.state.landscape]["img"]} alt={this.state.landscapes[this.state.landscape]["title"]} />
+        <h3>{this.state.landscapes[this.state.landscape]["title"]}</h3>
        </div>
 
-		   <div className="images" onClick={this.onClickHandler} >
+		   <div className="images" onClick={this.onClick} >
          {images}
        </div>
       </div>
