@@ -13,7 +13,11 @@ const data_animals = [
   {id:12, img: "../img/animals/elklookout.jpg", title:"Elk Lookout"},
   {id:13, img: "../img/animals/tetonsunrise.jpg", title:"Teton Sunrise"},
   {id:14, img: "../img/animals/bullelkonpatrol.jpg", title:"Bull ELk On Patrol"},
-  {id:15, img: "../img/animals/lookingfortrouble.jpg", title:"Looking For Trouble"}
+  {id:15, img: "../img/animals/lookingfortrouble.jpg", title:"Looking For Trouble"},
+  {id:16, img: "../img/animals/moosepool.jpg", title:"Moose Pool"},
+  {id:17, img: "../img/animals/polarbear.jpg", title:"Polar Bear Aurora"},
+  {id:18, img: "../img/animals/bears.jpg", title:"Bears"},
+  {id:19, img: "../img/animals/horses.jpg", title:"Horses"}
 ];
 const data_flowers = [
   {id:1, img: "../img/flowers/orchids.jpg", title:"Orchids"},
@@ -50,7 +54,11 @@ const data_landscapes = [
   {id:16, img: "../img/landscapes/dohenybeach.jpg", title: "Doheny Beach"},
   {id:17, img: "../img/landscapes/catalinasunset.jpg", title: "Catalina Sunset"},
   {id:18, img: "../img/landscapes/majestyofsequoias.jpg", title: "Majesty of Sequoias"},
-  {id:19, img: "../img/landscapes/patagonia.jpg", title: "Patagonia"}
+  {id:19, img: "../img/landscapes/patagonia.jpg", title: "Patagonia"},
+  {id:20, img: "../img/landscapes/beach.jpg", title: "Beach"},
+  {id:21, img: "../img/landscapes/sailboat.jpg", title: "Sailboat"},
+  {id:22, img: "../img/landscapes/moose.jpg", title: "Moose"},
+  {id:23, img: "../img/landscapes/fight.jpg", title: "Fight"}
 
 ];
 const data_people = [
@@ -66,7 +74,8 @@ const data_people = [
   {id:10, img: "../img/people/enjoyingthesunshine.jpg", title: "Enjoying The Sunshine"},
   {id:11, img: "../img/people/krakowianka.jpg", title: "Krakowianka"},
   {id:12, img: "../img/people/onewithnature.jpg", title: "One With Nature"},
-  {id:13, img: "../img/people/wateringflowers.jpg", title: "Watering Flowers"}
+  {id:13, img: "../img/people/wateringflowers.jpg", title: "Watering Flowers"},
+  {id:14, img: "../img/people/soldier.jpg", title: "Soldier"}
 ]
 const data_sculptures = [
   {id:1, img: "../img/sculptures/girlwithbutterfly.jpg", title: "Girl With Butterfly"},

@@ -11,6 +11,15 @@ class Home extends Component {
     super(props);
     this.state = {
   		home_images: [
+        data_animals[16],
+        data_landscapes[19],
+        data_animals[15],
+        data_animals[17],
+        data_landscapes[20],
+        data_animals[18],
+        data_landscapes[21],
+        data_landscapes[22],
+        data_people[13],
         data_landscapes[14],
         data_landscapes[17],
         data_flowers[9],
@@ -20,14 +29,7 @@ class Home extends Component {
         data_landscapes[0],
         data_landscapes[13],
         data_people[0],
-        data_landscapes[16],
         data_sculptures[0],
-        data_flowers[12],
-        data_landscapes[5],
-        data_flowers[13],
-        data_sculptures[7],
-        data_flowers[8],
-        data_landscapes[18]
   		],
   		selectedImageIndex: 0
     }
@@ -47,7 +49,9 @@ class Home extends Component {
   	return (
       <div>
        <div className="showcase">
-        <img src={this.state.home_images[this.state.selectedImageIndex]["img"]} alt={this.state.home_images[this.state.selectedImageIndex]["title"]} />
+        <img src={this.state.home_images[this.state.selectedImageIndex]["img"]}
+             alt={this.state.home_images[this.state.selectedImageIndex]["title"]}
+        />
         <h3>{this.state.home_images[this.state.selectedImageIndex]["title"]}</h3>
        </div>
 
