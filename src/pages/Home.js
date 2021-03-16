@@ -1,10 +1,10 @@
 import React, {Component} from 'react'
-import './pages.css'
+import '../style.css'
 import { data_animals,
          data_flowers,
          data_people,
          data_landscapes,
-         data_sculptures } from './Images'
+         data_sculptures } from '../ImageSets'
 
 class Home extends Component {
   constructor(props){
@@ -26,7 +26,7 @@ class Home extends Component {
         data_flowers[10],
   			data_animals[0],
   			data_animals[1],
-        data_landscapes[0],
+        data_landscapes[1],
         data_landscapes[13],
         data_people[0],
         data_sculptures[0],

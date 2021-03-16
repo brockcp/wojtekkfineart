@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import './pages.css'
+import '../style.css'
 class About extends Component{
 
   componentDidMount(){

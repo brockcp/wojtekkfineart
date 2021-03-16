@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
-import './pages.css'
-import { data_sculptures } from './Images'
+import '../style.css'
+import { data_sculptures } from '../ImageSets'
 
 class Sculptures extends Component {
   constructor(props){

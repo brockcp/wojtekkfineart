@@ -1,6 +1,6 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
-import './main.css'
+import '../style.css'
 import Home from '../pages/Home'
 import Animals from '../pages/Animals'
 import Landscapes from '../pages/Landscapes'

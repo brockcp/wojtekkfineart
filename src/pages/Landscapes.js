@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
-import './pages.css'
-import { data_landscapes } from './Images'
+import '../style.css'
+import { data_landscapes } from '../ImageSets'
 
 class Landscapes extends Component {
   constructor(props){

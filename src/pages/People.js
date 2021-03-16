@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
-import './pages.css'
-import { data_people } from './Images'
+import '../style.css'
+import { data_people } from '../ImageSets'
 
 class People extends Component {
   constructor(props){

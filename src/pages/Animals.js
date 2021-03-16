@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
-import './pages.css'
-import { data_animals } from './Images'
+import '../style.css'
+import { data_animals } from '../ImageSets'
 
 class Animals extends Component {
   constructor(props){
@@ -19,19 +19,27 @@ class Animals extends Component {
   	})
   }
   render() {
-    const images = this.state.animals.map((image,index)=>(
-      <img key={image.id} src={image.img} alt={image.title} data-index={index} />
+    const images = this.state.animals.map((x,y)=>(
+      <div className={'thumbnails'}>
+        <img key={x.id}
+             src={x.img}
+             alt={x.title}
+             data-index={y}
+             onClick={this.onClick}
+        />
+      </div>
     ));
   	return (
       <div>
-       <div className="showcase">
-        <img src={this.state.animals[this.state.animal]["img"]} alt={this.state.animals[this.state.animal]["title"]} />
-        <h3>{this.state.animals[this.state.animal]["title"]}</h3>
-       </div>
+         <div className="showcase">
+            <img src={this.state.animals[this.state.animal]["img"]}
+                 alt={this.state.animals[this.state.animal]["title"]} />
+            <h3>{this.state.animals[this.state.animal]["title"]}</h3>
+         </div>
 
-		   <div className="images" onClick={this.onClick} >
-         {images}
-       </div>
+  		   <div className="images">
+            {images}
+         </div>
       </div>
   	);
   }

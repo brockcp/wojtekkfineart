@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative:700&display=swap');
+
+body {
+  margin:0;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: 'Cinzel Decorative', cursive;
+  color:#666666;
+  background: #fff;
+}
+
+
+/* EXTRAS */
+.aboutbody, .contactbody{
+  width:80%;
+  margin: 0 10%;
+  font-family:sans-serif;
+}
+.centered{
+  text-align: center;
+}
+.left{
+  text-align: left;
+}
+.contactbody{
+  height:500px;
+}
+
+
+/* HEAD */
+header {
+  text-align: center;
+  padding: 2%;
+}
+.logo a {
+  font-size: 170%;
+  color: #444444;
+  font-style: italic;
+  text-decoration: none;
+}
+
+
+/* MAIN */
+.mainwrap{
+  padding: 0;
+  width: 100%;
+  border-top: 4px double #cccccc;
+  border-bottom: 4px double #cccccc;
+  text-align: center;
+}
+
+.showcase img{
+  margin: 5px 5% 0 5%;
+  width: 90%;
+  height:auto;
+  border:6px solid #cccccc;
+}
+@media only screen and (min-width: 768px){
+  .showcase img{
+    width: 600px;
+    height:400px;
+    border: 6px solid pink;
+  }
+}
+@media only screen and (min-width: 992px){
+  .showcase img{
+    max-width: 700px;
+  }
+}
+.showcase h3{
+  color:#994433;
+  margin:0 auto 15px auto;
+}
+
+.images{
+  margin:0 auto;
+  width:90%;
+}
+.thumbnails{
+  position: relative;
+  display:inline-block;
+}
+.thumbnails img{
+  background-size: cover;
+  width: 100px;
+  height: 80px;
+}
+
+
+
+/* @media only screen and (min-width:768px){
+  .images img{
+    max-width:15%;
+  }
+}
+@media only screen and (min-width:992px){
+  .images img{
+    max-width:10%;
+  }
+} */
+.images img:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+
+
+/* BUTTON */
+.button {
+  cursor: pointer;
+  font-weight: normal;
+  line-height: normal;
+  margin: 0 0 1.25rem;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  padding: .2rem 3rem .2rem 3rem;
+  font-size: 1.3rem;
+  background-color: #994433;
+  border-radius: 2px;
+  color: white;
+  transition: background-color 300ms ease-out;
+  font-weight: normal !important;
+}
+.button:hover, .button:focus {
+  color: #FFFFFF;
+  background-color: #996633;
+}
+
+
+/* FOOT */
+footer {
+  text-align:center;
+  width: 84%;
+  margin: 2% 8%;
+}
+footer ul{
+  margin:0;
+  padding: 0;
+}
+footer li{
+  display: inline-block;
+  padding: 0 5px;
+}
+footer li a{
+  color: #666666;
+  text-decoration: none;
+  font-weight: 900px;
+  font-style: italic;
+}
+footer li a:hover{
+  color:#333333;
+}

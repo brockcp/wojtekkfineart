@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
-import './pages.css'
-import { data_flowers } from './Images'
+import '../style.css'
+import { data_flowers } from '../ImageSets'
 
 class Flowers extends Component {
   constructor(props){
