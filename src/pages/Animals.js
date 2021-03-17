@@ -6,8 +6,8 @@ class Animals extends Component {
   constructor(props){
     super(props);
     this.state = {
-  	  animals: data_animals,
-  	  animal: 0
+  	  data_set: data_animals,
+  	  data_item: 0
     }
   }
   componentDidMount(){
@@ -15,12 +15,12 @@ class Animals extends Component {
   }
   onClick=(e)=>{
   	this.setState({
-  		animal: e.target.dataset.index
+  		data_item: e.target.dataset.index
   	})
   }
   render() {
-    const images = this.state.animals.map((x,y)=>(
-      <div className={'thumbnails'}>
+    const images = this.state.data_set.map((x,y)=>(
+      <div className={'thumbnail'}>
         <img key={x.id}
              src={x.img}
              alt={x.title}
@@ -30,14 +30,13 @@ class Animals extends Component {
       </div>
     ));
   	return (
-      <div>
+        <div>
          <div className="showcase">
-            <img src={this.state.animals[this.state.animal]["img"]}
-                 alt={this.state.animals[this.state.animal]["title"]} />
-            <h3>{this.state.animals[this.state.animal]["title"]}</h3>
+            <img src={this.state.data_set[this.state.data_item]["img"]}
+                 alt={this.state.data_set[this.state.data_item]["title"]} />
          </div>
-
-  		   <div className="images">
+         <h3 className="showcase-title">{this.state.data_set[this.state.data_item]["title"]}</h3>
+  		   <div className="thumbnails">
             {images}
          </div>
       </div>

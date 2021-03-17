@@ -11,7 +11,7 @@ import About from '../pages/About'
 import Contact from '../pages/Contact'
 
 const Main=()=>(
-  <div className="mainwrap">
+  <div className="row">
       <Switch>
         <Route exact path='/' component={Home}/>
         <Route path='/animals' component={Animals}/>

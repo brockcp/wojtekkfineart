@@ -10,7 +10,7 @@ class Home extends Component {
   constructor(props){
     super(props);
     this.state = {
-  		home_images: [
+  		data_set: [
         data_animals[16],
         data_landscapes[19],
         data_animals[15],
@@ -27,40 +27,45 @@ class Home extends Component {
   			data_animals[0],
   			data_animals[1],
         data_landscapes[1],
-        data_landscapes[13],
         data_people[0],
         data_sculptures[0],
   		],
-  		selectedImageIndex: 0
+  		data_item: 0
     }
   }
-  onClickHandler=(e)=>{
+  onClick=(e)=>{
   	this.setState({
-  		selectedImageIndex:  e.target.dataset.index
+  		data_item: e.target.dataset.index
   	})
   }
   componentDidMount(){
     document.title = "Wojtek Kosmowski Fine Art"
   }
   render() {
-    const images = this.state.home_images.map((image,index) => (
-      <img key={image.id} src={image.img} alt={image.title} data-index={index} />
+    const images = this.state.data_set.map((x,y)=>(
+      <div className={'thumbnail'}>
+        <img key={x.id}
+             src={x.img}
+             alt={x.title}
+             data-index={y}
+             onClick={this.onClick}
+        />
+      </div>
     ));
   	return (
-      <div>
-       <div className="showcase">
-        <img src={this.state.home_images[this.state.selectedImageIndex]["img"]}
-             alt={this.state.home_images[this.state.selectedImageIndex]["title"]}
-        />
-        <h3>{this.state.home_images[this.state.selectedImageIndex]["title"]}</h3>
-       </div>
-
-		   <div className="images" onClick={this.onClickHandler} >
-         {images}
-       </div>
+        <div>
+         <div className="showcase">
+            <img src={this.state.data_set[this.state.data_item]["img"]}
+                 alt={this.state.data_set[this.state.data_item]["title"]} />
+         </div>
+         <h3 className="showcase-title">{this.state.data_set[this.state.data_item]["title"]}</h3>
+  		   <div className="thumbnails">
+            {images}
+         </div>
       </div>
   	);
   }
 }
+
 
 export default Home

@@ -4,7 +4,7 @@ import Main from './components/Main';
 import Nav from './components/Nav';
 
 const App=()=>(
-  <div>
+  <div className="container-fluid">
     <Header />
     <Main />
     <Nav />

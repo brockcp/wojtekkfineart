@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative:700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
 
 body {
   margin:0;
   font-size: 1rem;
   line-height: 1.5;
-  font-family: 'Cinzel Decorative', cursive;
+  font-family: 'Cinzel Decorative', cursive !important;
   color:#666666;
   background: #fff;
 }
@@ -41,64 +41,53 @@ header {
 
 
 /* MAIN */
-.mainwrap{
-  padding: 0;
-  width: 100%;
-  border-top: 4px double #cccccc;
-  border-bottom: 4px double #cccccc;
-  text-align: center;
-}
-
-.showcase img{
-  margin: 5px 5% 0 5%;
-  width: 90%;
+.showcase{
+  text-align:center;
+  width:100%;
   height:auto;
-  border:6px solid #cccccc;
+  overflow:hidden;
 }
-@media only screen and (min-width: 768px){
+.showcase img{
+  width:100%;
+  height:285px;
+  border: 10px solid;
+  border-image: radial-gradient(rgb(201,183,141), rgb(107,85,33)) 1;
+}
+@media (min-width: 576px) {
+  .showcase img{
+    height:400px;
+  }
+}
+@media (min-width: 768px){
   .showcase img{
     width: 600px;
-    height:400px;
-    border: 6px solid pink;
+    height:450px;
   }
 }
-@media only screen and (min-width: 992px){
+@media (min-width: 992px){
   .showcase img{
-    max-width: 700px;
+    width: 700px;
   }
 }
-.showcase h3{
+.showcase-title{
+  text-align:center;
   color:#994433;
-  margin:0 auto 15px auto;
-}
-
-.images{
-  margin:0 auto;
-  width:90%;
+  margin:15px auto;
 }
 .thumbnails{
+  text-align:center;
+  width:100%;
+}
+.thumbnail{
   position: relative;
   display:inline-block;
 }
-.thumbnails img{
+.thumbnail img{
   background-size: cover;
-  width: 100px;
-  height: 80px;
+  width: 110px;
+  height: 100px;
 }
-
-
-
-/* @media only screen and (min-width:768px){
-  .images img{
-    max-width:15%;
-  }
-}
-@media only screen and (min-width:992px){
-  .images img{
-    max-width:10%;
-  }
-} */
-.images img:hover{
+.thumbnail img:hover{
   opacity: 0.8;
   cursor: pointer;
 }

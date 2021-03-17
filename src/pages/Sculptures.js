@@ -6,8 +6,8 @@ class Sculptures extends Component {
   constructor(props){
     super(props);
     this.state = {
-  	  sculptures: data_sculptures,
-  	  sculpture: 0
+  	  data_set: data_sculptures,
+  	  data_item: 0
     }
   }
   componentDidMount(){
@@ -19,19 +19,26 @@ class Sculptures extends Component {
   	})
   }
   render() {
-    const images = this.state.sculptures.map((image,index) => (
-      <img key={image.id} src={image.img} alt={image.title} data-index={index} />
+    const images = this.state.data_set.map((x,y)=>(
+      <div className={'thumbnail'}>
+        <img key={x.id}
+             src={x.img}
+             alt={x.title}
+             data-index={y}
+             onClick={this.onClick}
+        />
+      </div>
     ));
   	return (
-      <div>
-       <div className="showcase">
-        <img src={this.state.sculptures[this.state.sculpture]["img"]} alt={this.state.sculptures[this.state.sculpture]["title"]} />
-        <h3>{this.state.sculptures[this.state.sculpture]["title"]}</h3>
-       </div>
-
-		   <div className="images" onClick={this.onClick} >
-         {images}
-       </div>
+        <div>
+         <div className="showcase">
+            <img src={this.state.data_set[this.state.data_item]["img"]}
+                 alt={this.state.data_set[this.state.data_item]["title"]} />
+         </div>
+         <h3 className="showcase-title">{this.state.data_set[this.state.data_item]["title"]}</h3>
+  		   <div className="thumbnails">
+            {images}
+         </div>
       </div>
   	);
   }
