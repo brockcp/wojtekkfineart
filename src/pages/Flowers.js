@@ -7,15 +7,11 @@ class Flowers extends Component {
     super(props);
     this.state = {
   	  data_set: data_flowers,
-  	  data_item: 0,
-      loading: true
+  	  data_item: 0
     }
   }
   componentDidMount(){
     document.title = "Wojtek Kosmowski Fine Art | Flowers"
-    this.setState({
-      loading:false
-    })
   }
   onClick=(e)=>{
   	this.setState({
@@ -35,15 +31,10 @@ class Flowers extends Component {
     ));
   	return (
         <div className="col">
-         <div className="showcase">
-           {!this.state.loading ? (
-            <img src={this.state.data_set[this.state.data_item]["img"]}
-                 alt={this.state.data_set[this.state.data_item]["title"]}
-            />
-          ):(
-            <div className="fake-back"></div>
-          )};
-         </div>
+        <div className="showcase">
+           <img src={this.state.data_set[this.state.data_item]["img"]}
+                alt={this.state.data_set[this.state.data_item]["title"]} />
+        </div>
          <h3 className="showcase-title">{this.state.data_set[this.state.data_item]["title"]}</h3>
   		   <div className="thumbnails">
             {images}

@@ -67,6 +67,7 @@ header {
   text-align:center;
   color:#994433;
   margin:15px auto;
+  animation: fadeIn .3s linear forwards !important;
 }
 .thumbnails{
   text-align:center;
