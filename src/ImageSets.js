@@ -1,3 +1,19 @@
+const data_home = [
+  {id:1, img: "../img/animals/polarbear.jpg", title:"Polar Bear Aurora"},
+  {id:2, img: "../img/animals/moosepool.jpg", title:"Moose Pool"},
+  {id:3, img: "../img/animals/bears.jpg", title:"Bears"},
+  {id:4, img: "../img/animals/horses.jpg", title:"Horses"},
+  {id:5, img: "../img/flowers/orchids.jpg", title:"Orchids"},
+  {id:6, img: "../img/landscapes/sailboat.jpg", title: "Sailboat"},
+  {id:7, img: "../img/landscapes/beach.jpg", title: "Beach"},
+  {id:8, img: "../img/landscapes/moose.jpg", title: "Moose"},
+  {id:9, img: "../img/landscapes/fight.jpg", title: "Fight"},
+  {id:10, img: "../img/animals/siberianromance.jpg", title:"Siberian Romance"},
+  {id:11, img: "../img/sculptures/girlwithbutterfly.jpg", title: "Girl With Butterfly"},
+  {id:12, img: "../img/animals/elklookout.jpg", title:"Elk Lookout"},
+  {id:13, img: "../img/animals/tetonsunrise.jpg", title:"Teton Sunrise"},
+  {id:14, img: "../img/animals/bullelkonpatrol.jpg", title:"Bull ELk On Patrol"}
+];
 const data_animals = [
   {id:1, img: "../img/animals/fishinglesson.jpg", title:'Fishing Lesson'},
   {id:2, img: "../img/animals/patrollinghiskingdom.jpg", title:"Patrolling His Kingdom"},
@@ -12,7 +28,7 @@ const data_animals = [
   {id:11, img: "../img/animals/morningwakeupcall.jpg", title:"Morning Wakeup Call"},
   {id:12, img: "../img/animals/elklookout.jpg", title:"Elk Lookout"},
   {id:13, img: "../img/animals/tetonsunrise.jpg", title:"Teton Sunrise"},
-  {id:14, img: "../img/animals/bullelkonpatrol.jpg", title:"Bull ELk On Patrol"},
+  {id:14, img: "../img/animals/bullelkonpatrol.jpg", title:"Bull Elk On Patrol"},
   {id:15, img: "../img/animals/lookingfortrouble.jpg", title:"Looking For Trouble"},
   {id:16, img: "../img/animals/moosepool.jpg", title:"Moose Pool"},
   {id:17, img: "../img/animals/polarbear.jpg", title:"Polar Bear Aurora"},
@@ -92,4 +108,4 @@ const data_sculptures = [
   {id:12, img: "../img/sculptures/snowlady.jpg",  title: "Snowlady"}
 ]
 
-export { data_animals, data_flowers, data_landscapes, data_people, data_sculptures };
+export { data_home, data_animals, data_flowers, data_landscapes, data_people, data_sculptures };

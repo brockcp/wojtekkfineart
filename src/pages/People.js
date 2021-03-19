@@ -15,7 +15,7 @@ class People extends Component {
   }
   onClick=(e)=>{
   	this.setState({
-  		person: e.target.dataset.index
+  		data_item: e.target.dataset.index
   	})
   }
   render() {
@@ -30,7 +30,7 @@ class People extends Component {
       </div>
     ));
   	return (
-        <div>
+        <div className="col">
          <div className="showcase">
             <img src={this.state.data_set[this.state.data_item]["img"]}
                  alt={this.state.data_set[this.state.data_item]["title"]} />

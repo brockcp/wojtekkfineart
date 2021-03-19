@@ -7,20 +7,24 @@ class Flowers extends Component {
     super(props);
     this.state = {
   	  data_set: data_flowers,
-  	  data_item: 0
+  	  data_item: 0,
+      loading: true
     }
   }
   componentDidMount(){
     document.title = "Wojtek Kosmowski Fine Art | Flowers"
+    this.setState({
+      loading:false
+    })
   }
   onClick=(e)=>{
   	this.setState({
-  		flower: e.target.dataset.index
+  		data_item: e.target.dataset.index
   	})
   }
   render() {
     const images = this.state.data_set.map((x,y)=>(
-      <div className={'thumbnail'}>
+      <div className='thumbnail'>
         <img key={x.id}
              src={x.img}
              alt={x.title}
@@ -30,10 +34,15 @@ class Flowers extends Component {
       </div>
     ));
   	return (
-        <div>
+        <div className="col">
          <div className="showcase">
+           {!this.state.loading ? (
             <img src={this.state.data_set[this.state.data_item]["img"]}
-                 alt={this.state.data_set[this.state.data_item]["title"]} />
+                 alt={this.state.data_set[this.state.data_item]["title"]}
+            />
+          ):(
+            <div className="fake-back"></div>
+          )};
          </div>
          <h3 className="showcase-title">{this.state.data_set[this.state.data_item]["title"]}</h3>
   		   <div className="thumbnails">

@@ -1,19 +1,19 @@
-import React, {Component} from 'react'
+import React from 'react'
 
-class Contact extends Component{
-  componentDidMount(){
+function Contact(){
     document.title = "Wojtek Kosmowski Fine Art | Contact"
-  }
-  render(){
     return (
-     <div className="contactbody">
-       <h3>Whether you are interested in purchasing a piece of art or learning more about
-       my works, please feel free to send me an email.
-       </h3>
-       <a href="mailto:wkosmowski@cox.net" className="button">email</a>
-     </div>
+       <div className="mh-600 col-sm-12 col-md-10 offset-md-1 col-lg-8 offset-md-2 text-center">
+         <p className="">Whether you are interested in purchasing a piece of art or learning more about
+           my works, please feel free to send me an email.
+         </p>
+         <a href="mailto:wkosmowski@cox.net"
+            className="button"
+            target="_blank"
+            rel="noopener noreferrer">
+          email
+        </a>
+       </div>
     )
-  }
 }
-
 export default Contact

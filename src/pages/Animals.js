@@ -30,7 +30,7 @@ class Animals extends Component {
       </div>
     ));
   	return (
-        <div>
+        <div className="col">
          <div className="showcase">
             <img src={this.state.data_set[this.state.data_item]["img"]}
                  alt={this.state.data_set[this.state.data_item]["title"]} />

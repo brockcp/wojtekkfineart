@@ -15,7 +15,7 @@ class Sculptures extends Component {
   }
   onClick=(e)=>{
   	this.setState({
-  		sculpture: e.target.dataset.index
+  		data_item: e.target.dataset.index
   	})
   }
   render() {
@@ -30,7 +30,7 @@ class Sculptures extends Component {
       </div>
     ));
   	return (
-        <div>
+        <div className="col">
          <div className="showcase">
             <img src={this.state.data_set[this.state.data_item]["img"]}
                  alt={this.state.data_set[this.state.data_item]["title"]} />

@@ -11,20 +11,10 @@ body {
 
 
 /* EXTRAS */
-.aboutbody, .contactbody{
-  width:80%;
-  margin: 0 10%;
-  font-family:sans-serif;
+.mh-600{
+  min-height:600px;
 }
-.centered{
-  text-align: center;
-}
-.left{
-  text-align: left;
-}
-.contactbody{
-  height:500px;
-}
+.fs-20{font-size:20px}
 
 
 /* HEAD */
@@ -52,6 +42,7 @@ header {
   height:285px;
   border: 10px solid;
   border-image: radial-gradient(rgb(201,183,141), rgb(107,85,33)) 1;
+  animation: fadeIn .3s linear forwards !important;
 }
 @media (min-width: 576px) {
   .showcase img{
@@ -68,6 +59,9 @@ header {
   .showcase img{
     width: 700px;
   }
+}
+.fake-back{
+  background-color: gray;
 }
 .showcase-title{
   text-align:center;
@@ -86,10 +80,17 @@ header {
   background-size: cover;
   width: 110px;
   height: 100px;
+  animation: fadeIn .7s linear forwards !important;
+
 }
 .thumbnail img:hover{
   opacity: 0.8;
   cursor: pointer;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
 }
 
 
