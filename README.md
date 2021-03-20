@@ -1,12 +1,13 @@
 # Wojtekk Fine Art
 
-- **Woktekk Fine Art** is an image gallery site I built for a client. It is very minimalistic as per the client's strict request.
+- **Wojtekk Fine Art** is an image gallery site I built for a client. It was designed to be minimalistic as per the client's specific request.
 
 ### Features:
 
-  - Built with React. Employs React Router v4 for multiple page displays.
+  - Built with React. Employs React Router v4 for multiple page displays and Bootstrap5 for styling.
 
 ### Technologies used:
 
-- **React Javascript Library**
-- **React Router v4**
+- **React**
+- **React Router v5**
+- **Bootstrap5**

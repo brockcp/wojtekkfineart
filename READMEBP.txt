@@ -9,7 +9,9 @@
  -
 
 -FIX-
- -
+ -rework bootstrap
+ -change to functional
+ -finish image loading
 
 -NOTES-
  -requires production build - $ yarn build or npm run build
