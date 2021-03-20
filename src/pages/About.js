@@ -18,7 +18,7 @@ function About(){
          </p>
          <p className="">
            <span className="fs-20">Professional Career: </span>
-            Used my technical skills and distinguished myself by creating technologically advanced products that generated 39 patents and produced a base for starting 4 successful engineering companies which dealt in the international market exposing me to extensive travel and cultures worldwide.
+            Used my technical skills and distinguished myself by creating technologically advanced products that generated 52 patents and produced a base for starting 6 successful engineering companies which dealt in the international market exposing me to extensive travel and cultures worldwide.
          </p>
          <p className="">
            <span className="fs-20">Hobbies: </span>

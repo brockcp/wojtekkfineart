@@ -6,7 +6,7 @@ import Animals from '../pages/Animals'
 import Landscapes from '../pages/Landscapes'
 import People from '../pages/People'
 import Sculptures from '../pages/Sculptures'
-import Flowers from '../pages/FlowersH'
+import Flowers from '../pages/Flowers'
 import About from '../pages/About'
 import Contact from '../pages/Contact'
 

@@ -4,8 +4,8 @@ import { data_flowers } from '../ImageSets'
 
 function Flowers(){
   const dataaa = data_flowers;
-  const image = "http://ocwebworks.com/img/galaxy5.png"
-  const placeholder = "http://ocwebworks.com/img/ocbg.png"
+  //const image = "http://ocwebworks.com/img/galaxy5.png"
+  //const placeholder = "http://ocwebworks.com/img/ocbg.png"
   document.title = "Wojtek Kosmowski Fine Art | Flowers"
   const [loading, setLoading] = useState(true);
   const [currentSrc, updateSrc] = useState(placeholder);
