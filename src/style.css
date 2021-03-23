@@ -42,7 +42,6 @@ header {
   height:285px;
   border: 10px solid;
   border-image: radial-gradient(rgb(201,183,141), rgb(107,85,33)) 1;
-  animation: fadeIn .3s linear forwards !important;
 }
 @media (min-width: 576px) {
   .showcase img{
@@ -60,19 +59,17 @@ header {
     width: 700px;
   }
 }
-.fake-back{
-  background-color: gray;
-}
 .showcase-title{
   text-align:center;
   color:#994433;
   margin:15px auto;
-  animation: fadeIn .3s linear forwards !important;
 }
+
 .thumbnails{
   text-align:center;
   width:100%;
 }
+
 .thumbnail{
   position: relative;
   display:inline-block;
@@ -81,7 +78,6 @@ header {
   background-size: cover;
   width: 110px;
   height: 100px;
-  animation: fadeIn .7s linear forwards !important;
 
 }
 .thumbnail img:hover{
@@ -89,10 +85,46 @@ header {
   cursor: pointer;
 }
 
-@keyframes fadeIn {
-  0% {opacity: 0;}
-  100% {opacity: 1;}
+
+/* IMAGE LOADING */
+.smooth-image-wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
+.smooth-image {
+  transition: opacity 1s;
+  width: 100%;
+  height: 100%;
+}
+.image-visible {
+  opacity: 1;
+}
+.image-hidden {
+  opacity: 0;
+}
+
+.smooth-preloader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(245, 245, 245, 0.34);
+}
+.loader {
+  background-image: linear-gradient(to right, #e6e6e6, #ffffff, #e6e6e6);
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background-size: 200%;
+  animation: preloader-block 2s linear 0s infinite reverse forwards;
+}
+@keyframes preloader-block {
+  from {background-position: 0%, 0;}
+  to {background-position: 170%, 0;}
+}
+
 
 
 
