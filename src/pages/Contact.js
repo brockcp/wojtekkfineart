@@ -7,7 +7,7 @@ function Contact(){
          <p className="">Whether you are interested in purchasing a piece of art or learning more about
            my works, please feel free to send me an email.
          </p>
-         <a href="mailto:wkosmowski@cox.net"
+         <a href="mailto:info@wojtekkfineart.com"
             className="button"
             target="_blank"
             rel="noopener noreferrer">
