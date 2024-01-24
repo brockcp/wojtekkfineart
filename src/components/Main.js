@@ -7,6 +7,7 @@ import Landscapes from '../pages/Landscapes'
 import People from '../pages/People'
 import Sculptures from '../pages/Sculptures'
 import Flowers from '../pages/Flowers'
+import Photos from '../pages/Photos'
 import About from '../pages/About'
 import Contact from '../pages/Contact'
 
@@ -19,6 +20,7 @@ const Main=()=>(
         <Route path='/people' component={People}/>
         <Route path='/sculptures' component={Sculptures}/>
         <Route path='/flowers' component={Flowers}/>
+        <Route path='/photos' component={Photos}/>
         <Route path='/about' component={About}/>
         <Route path='/contact' component={Contact}/>
       </Switch>

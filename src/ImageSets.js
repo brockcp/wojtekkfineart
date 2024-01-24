@@ -116,6 +116,17 @@ const data_sculptures = [
   {id:8, img: "../img/sculptures/catchingtheball.jpg", title: "Catching the Ball"},
   {id:9, img: "../img/sculptures/coolingoff.jpg",  title: "Cooling Off"},
   {id:10, img: "../img/sculptures/snowlady.jpg",  title: "Snowlady"}
+];
+const data_photos = [
+  {id:0, img: "../img/photos/1.jpg", title: "1"},
+  {id:1, img: "../img/photos/2.jpg", title: "2"},
+  {id:2, img: "../img/photos/3.jpg", title: "3"},
+  {id:3, img: "../img/photos/4.jpg", title: "4"},
+  {id:4, img: "../img/photos/5.jpg", title: "5"},
+  {id:5, img: "../img/photos/6.jpg", title: "6"},
+  {id:6, img: "../img/photos/7.jpg", title: "7"},
+  {id:7, img: "../img/photos/8.jpg", title: "8"},
+  {id:8, img: "../img/photos/9.jpg", title: "9"}
 ]
 
-export { data_home, data_animals, data_landscapes, data_flowers, data_people, data_sculptures };
+export { data_home, data_animals, data_landscapes, data_flowers, data_people, data_sculptures, data_photos };
