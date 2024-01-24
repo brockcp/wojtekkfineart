@@ -126,7 +126,8 @@ const data_photos = [
   {id:5, img: "../img/photos/6.jpg", title: "6"},
   {id:6, img: "../img/photos/7.jpg", title: "7"},
   {id:7, img: "../img/photos/8.jpg", title: "8"},
-  {id:8, img: "../img/photos/9.jpg", title: "9"}
+  {id:8, img: "../img/photos/9.jpg", title: "9"},
+  {id:9, img: "../img/photos/10.jpg",title: "10"}
 ]
 
 export { data_home, data_animals, data_landscapes, data_flowers, data_people, data_sculptures, data_photos };
