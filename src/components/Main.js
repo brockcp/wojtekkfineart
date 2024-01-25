@@ -20,7 +20,7 @@ const Main=()=>(
         <Route path='/people' component={People}/>
         <Route path='/sculptures' component={Sculptures}/>
         <Route path='/flowers' component={Flowers}/>
-        <Route path='/photos' component={Photos}/>
+        <Route path='/backyardsafari' component={Photos}/>
         <Route path='/about' component={About}/>
         <Route path='/contact' component={Contact}/>
       </Switch>

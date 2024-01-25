@@ -174,3 +174,7 @@ footer li a{
 footer li a:hover{
   color:#333333;
 }
+footer li a small{
+  color:#994433;
+  font-size: .5rem;
+}
