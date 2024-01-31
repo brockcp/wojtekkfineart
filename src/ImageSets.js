@@ -127,7 +127,15 @@ const data_photos = [
   {id:6, img: "../img/photos/7.jpg", title: "7"},
   {id:7, img: "../img/photos/8.jpg", title: "8"},
   {id:8, img: "../img/photos/9.jpg", title: "9"},
-  {id:9, img: "../img/photos/10.jpg",title: "10"}
+  {id:9, img: "../img/photos/10.jpg",title: "10"},
+  {id:10, img: "../img/photos/11.jpg", title: "11"},
+  {id:11, img: "../img/photos/12.jpg", title: "12"},
+  {id:12, img: "../img/photos/13.jpg", title: "13"},
+  {id:13, img: "../img/photos/14.jpg", title: "14"},
+  {id:14, img: "../img/photos/15.jpg", title: "15"},
+  {id:15, img: "../img/photos/16.jpg", title: "16"},
+  {id:16, img: "../img/photos/17.jpg", title: "17"},
+  {id:17, img: "../img/photos/18.jpg", title: "18"}
 ]
 
 export { data_home, data_animals, data_landscapes, data_flowers, data_people, data_sculptures, data_photos };
