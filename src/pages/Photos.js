@@ -5,7 +5,7 @@ import Showcase from '../components/Showcase';
 import {data_photos} from '../ImageSets'
 
 function Photos(){
-  document.title = "Wojtek Kosmowski Fine Art | Photos"
+  document.title = "Wojtek Kosmowski Fine Art | Backyard Safari"
   const [data_item, setData_item] = useState(0);
 	return (
     <div className="col">

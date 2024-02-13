@@ -12,7 +12,6 @@ const Nav=()=>(
         <li><Link to='/people'>People</Link></li>
         <li><Link to='/sculptures'>Sculptures</Link></li>
         <li><Link to='/flowers'>Flowers</Link></li>
-        <li><Link to='/backyardsafari'>Backyard Safari<small>new</small></Link></li>
         <li><Link to='/about'>About</Link></li>
         <li><Link to='/contact'>Contact</Link></li>
       </ul>
