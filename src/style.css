@@ -14,20 +14,27 @@ body {
 .mh-600{
   min-height:600px;
 }
-.fs-20{font-size:20px}
-
+.fs-20{font-size:20px
+}
+.backyardsafari-pb{
+  padding-bottom: 25px;
+}
 
 /* HEAD */
 header {
   text-align: center;
   padding: 2%;
 }
-.logo a {
+.logo{
   font-size: 170%;
   color: #444444;
   font-style: italic;
-  text-decoration: none;
+  /* text-decoration: none; */
 }
+/* .logo a:hover, .logo a:focus {
+  color: #555555;
+} */
+
 
 
 /* MAIN */

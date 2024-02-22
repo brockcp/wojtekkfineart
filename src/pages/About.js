@@ -1,9 +1,11 @@
 import React from 'react'
 import '../style.css'
+import Nav from '../components/Nav';
 
 function About(){
   document.title = "Wojtek Kosmowski Fine Art | About"
   return (
+    <>
      <div className="col-sm-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
          <h3 className="text-center py-3">Wojciech Kosmowski: A Brief Background
          </h3>
@@ -27,6 +29,10 @@ function About(){
             I take my inspiration from nature by hiking and admiring ever changing beauty and capture it on canvas, observing details which escape most people, and finding places which most dramatically portray nature. I also admire beauty and the infinite variety of human body forms where body language has more words than spoken, especially in human relations where expression such as happiness, sadness and terror are so vivid. I was born with a positive attitude and passion for life, trying to live it to the fullest and desire to share my experiences through art with others. My wish is to create something special in art that would stand the test of time and give joy for generations to come.
          </p>
      </div>
+     <div className="col">
+       <Nav />
+     </div>
+    </>
   )
 }
 

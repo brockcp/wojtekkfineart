@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import '../style.css'
+import Nav from '../components/Nav';
 import Thumbnails from '../components/Thumbnails';
 import Showcase from '../components/Showcase';
 import {data_landscapes} from '../ImageSets'
@@ -11,6 +12,7 @@ function Landscapes(){
     <div className="col">
        <Showcase data={data_landscapes} dataItem={data_item}/>
        <Thumbnails data={data_landscapes} setDataItem={setData_item}/>
+       <Nav />
     </div>
 	);
 }

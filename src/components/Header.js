@@ -5,7 +5,7 @@ import '../style.css'
 const Header=()=>(
   <header>
     <div className="logo">
-      <Link to='/'>Wojtekk Fine Art</Link>
+      Wojtekk Fine Art
     </div>
   </header>
 )

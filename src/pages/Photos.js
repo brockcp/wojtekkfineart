@@ -8,7 +8,7 @@ function Photos(){
   document.title = "Wojtek Kosmowski Fine Art | Backyard Safari"
   const [data_item, setData_item] = useState(0);
 	return (
-    <div className="col">
+    <div className="col backyardsafari-pb">
        <Showcase data={data_photos} dataItem={data_item}/>
        <Thumbnails data={data_photos} setDataItem={setData_item}/>
     </div>
