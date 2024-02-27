@@ -135,7 +135,14 @@ const data_photos = [
   {id:14, img: "../img/photos/15.jpg", title: "15"},
   {id:15, img: "../img/photos/16.jpg", title: "16"},
   {id:16, img: "../img/photos/17.jpg", title: "17"},
-  {id:17, img: "../img/photos/18.jpg", title: "18"}
+  {id:17, img: "../img/photos/18.jpg", title: "18"},
+  {id:18, img: "../img/photos/19.jpg", title: "19"},
+  {id:19, img: "../img/photos/20.jpg", title: "20"},
+  {id:20, img: "../img/photos/21.jpg", title: "21"},
+  {id:21, img: "../img/photos/22.jpg", title: "22"},
+  {id:22, img: "../img/photos/23.jpg", title: "23"},
+  {id:23, img: "../img/photos/24.jpg", title: "24"},
+  {id:24, img: "../img/photos/25.jpg", title: "25"}
 ]
 
 export { data_home, data_animals, data_landscapes, data_flowers, data_people, data_sculptures, data_photos };
